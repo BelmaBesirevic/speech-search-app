@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Speech to Text Search</title>
+  </head>
+  <body>
+    <div class="page__container">
+      <div class="app-container">
+        <h2>Speech to Text Search</h2>
+        <form
+          action="https://www.google.com/search"
+          method="get"
+          target="_blank"
+          id="speech-form"
+        >
+        <p>
+          <i class="fa-solid fa-signal-stream"></i>
+            Voice Commands: search, stop recording, reset form
+          </p>
+          <input
+            name="q"
+            type="text"
+            id="speech-input"
+            class="input-control"
+            placeholder="Search Google"
+            autocomplete="off"
+            autofocus
+          />
+        </form>
+        <div id="speech-btn-container" class="record-container">
+          <p class="instruction">
+            Press CTRL + x or Click the Mic icon to start
+          </p>
+          <button class="speech-btn">
+            <i class="fa-solid fa-microphone"></i>
+          </button>
+        </div>
+      </div>
+      <footer class="footer">Copyright Belma Besirevic 2022</footer>
+    </div>
+
+    <!-- scripts -->
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

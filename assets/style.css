@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.page__container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: center;
+  flex-direction: column;
+}
+
+.app-container h2 {
+  background-color: #212738;
+  color: #fff;
+  padding: 1.7rem 3rem;
+  margin-bottom: 2rem;
+}
+
+#speech-input {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.record-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instruction {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+
+}
+
+.speech-btn {
+  border: none;
+  font-size: 28px;
+  background-color: #f97068;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.input-control {
+  font-size: 18px;
+  width: 100%;
+  padding: 0.5rem;
+}
